@@ -1,50 +1,66 @@
-body {
-  background-color: #8AA68D;
+.title{
+  text-align:center;
+  font-size: 70px;
+  color: #4D828C;
+  font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
-  background-color: #5D736E;
+.smalltitle1{
   font-size: 40px;
+  color: #2B313F;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.intro{
+  color: #2B313F;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.wwfpic{
+  height: 200px;
+  width: 400px;
+}
+
+.turtlepic{
+  height: 400px;
+  width: 600px;
+}
+
+.logo{
+  height: 50px;
+  width: 100px;
+}
+
+.btn-group button {
+  background-color: #4D828C; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #2B313F;
 }
 
 
-p {
-  color: #1F1D26;
-}
-
-.one {
-  border-style: solid;
-  border-width: 2px;
-  border-color: #323A40;
-}
-
-.two {
-  border-style: solid;
-  border-width: 2px;
-  border-color: #323A40;
-}
-
-.three {
-  border-style: solid;
-  border-width: 2px;
-  border-color: #323A40;
-}
-
-.four {
-  border-style: solid;
-  border-width: 2px;
-  border-color: #323A40;
-}
-
-.five {
-  border-style: solid;
-  border-width: 2px;
-  border-color: #323A40;
-}
 
 
 
-* {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
