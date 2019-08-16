@@ -40,7 +40,12 @@
 }
 
 
-
+.minititle2{
+  text-align:center;
+  font-size: 40px;
+  color: #135E67;
+  font-family: 'Noticia Text', serif;
+}
 
 .minititle{
   text-align:center;
@@ -52,6 +57,19 @@
   border-style: dashed;*/
 }
 
+.squiggly{
+  width:30%;
+  height:15%;
+  float: left;
+  margin-left: 50px;
+}
+
+.squiggly1{
+  width:30%;
+  height:15%;
+  float: right;
+  margin-right: 50px;
+}
 
 .minititle1{
   text-align:center;
@@ -303,6 +321,8 @@ div.polaroid3 {
 .waterfall{
   width: 100%;
   height: 100px;
+  /*margin-top: -41px;*/
+
 }
 
 .btn-group button {
@@ -314,19 +334,22 @@ div.polaroid3 {
   float: left; /* Float the buttons side by side */
   font-size: 17px;
   font-family: 'Noticia Text', serif;
+/*  z-index: 1;/*
+
+
 
 }
 
 .btn-group button:not(:last-child) {
   border-right: none; /* Prevent double borders it was none*/
 }
-
-/* Clear floats (clearfix hack) */
+/* Clear floats (clearfix hack)*/
 .btn-group:after {
   content: "";
   clear: both;
   display: table;
 }
+
 
 /* Add a background color on hover */
 .btn-group button:hover {
@@ -400,6 +423,7 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  /*z-index: 0;*/
 }
 
 /* Place text in the middle of the image */
@@ -410,7 +434,11 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  margin-top: -140px;
+  margin-top: -170px;
+  text-align:center;
+  font-size: 50px;
+  color: white;
+  font-family: 'Noticia Text', serif;
 }
 
 
@@ -836,13 +864,69 @@ color: #135E67;
 
   .protest{
     margin-top: 120px;
+    width: 70%;
+    height: 80%;
+    margin-left: 200px;
   }
 
-  .logo{
-    height:15%;
-    float:left;
-    border-style: solid;
-    border-color: #135E67;
-    border-width: 1px;
-    position: absolute;
+.logo{
+  width: 15%;
+  height: 23%;
+  text-align: center;
+  margin-left: 115px;
   }
+
+  /*.together14{
+    align-items: center;
+  }
+
+
+/*FLIP PROTEST PICTURE*/
+  /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+  background-color: transparent;
+  width: 900px;
+  height: 600px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  margin-left: 170px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+  background-color: #135E67;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: #135E67;
+  color: white;
+  transform: rotateY(180deg);
+  font-style: 'Noticia Text', serif;
+  font-size: 65px;
+}

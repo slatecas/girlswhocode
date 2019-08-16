@@ -196,7 +196,11 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  margin-top: -140px;
+  margin-top: -170px;
+  text-align:center;
+  font-size: 50px;
+  color: white;
+  font-family: 'Noticia Text', serif;
 }
 
 /* Slideshow container */
