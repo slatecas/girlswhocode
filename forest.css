@@ -1,0 +1,157 @@
+.smimg1{
+  width: 100%;
+  height: 550px;
+}
+
+.forestq{
+  font-weight: lighter;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 100px;
+  font-family: 'Noticia Text', serif;
+}
+
+.forestol{
+  font-weight: lighter;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Noticia Text', serif;
+}
+
+.air3{
+  font-family: "Noticia Text", serif;
+  color: black;
+  text-align: center;
+  font-size: 40px;
+}
+
+.tress{
+  margin-top: 35px;
+  display: block;
+  height: 670px;
+  border-style: solid;
+  border-width: 1px;
+  color: black;
+  /*  border-style: solid;
+    border-width: 5px;
+    border-color: #135e67;
+    padding-left: 150px;*/
+  /*  width: 90%;
+    border: 5px solid #135e67;
+  /*  background-color: #b8ced1;*/
+}
+
+.tresss{
+  margin-top: 35px;
+  display: block;
+  height: 670px;
+  border-style: solid;
+  border-width: 1px;
+  color: black;
+  border-top: 200px;
+}
+
+.tree1{
+  position: center;
+  top: 39%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 10px;
+  font-family: 'Noticia Text', serif;
+}
+
+.green3{
+  font-weight: lighter;
+  display: block;
+  font-size: 20px;
+  float:left;
+  top: 39%;
+  left: 50%;
+  transform: translate(5%, 5%);
+  color: black;
+  font-family: 'Noticia Text', serif;
+  width: 35%;
+}
+
+.green3{
+/* s float:left;
+  text-align:center;
+  width:35%;
+  font-size: 20px;
+  color: black;
+  font-family: 'Noticia Text', serif;
+  text-indent: 25px; */
+}
+
+.deforest1{
+  float:right;
+  align: center;
+  margin-top: 50px;
+  margin-right: 40px;
+  width: 600px;
+  height: 410px;
+}
+
+.air66{
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Noticia Text", serif;
+  color: black;
+  margin-top: 30px;
+}
+
+.greens2{
+  font-weight: lighter;
+  text-align:left;
+  margin-left: 20px;
+  width:35%;
+  font-size: 20px;
+  color: black;
+  font-family: 'Noticia Text', serif;
+  text-indent: 25px;
+  float: left;
+}
+
+
+.restnot{
+  float:right;
+  width: 55%;
+  margin-right: 20px;
+}
+
+.circlebuttonspages button {
+  background-color: black; /* Green background */
+  border: 1px solid "white"; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  font-size: 17px;
+  font-family: 'Noticia Text', serif;
+}
+
+
+.circlebuttonspages button:not(:last-child) {
+  border-right: none; /* Prevent double borders it was none*/
+}
+
+/* Clear floats (clearfix hack) */
+.circlebuttonspages:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.circlebuttonspages button:hover {
+  background-color: darkgreen;

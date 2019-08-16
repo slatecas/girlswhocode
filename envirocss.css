@@ -5,6 +5,40 @@
   font-family: 'Noticia Text', serif;
 }
 
+.climatechange1{
+  text-align:left;
+  font-size: 55px;
+  color: #135E67;
+  font-family: 'Noticia Text', serif;
+  border-bottom: 2px;
+  border-style: solid;
+  border-color: #135E67;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  /*width: 490px; */
+  width:40%;
+  float: right;
+  margin-top: -117px;
+  margin-right: 50px;
+}
+
+.climatechange{
+  text-align:left;
+  font-size: 55px;
+  color: #135E67;
+  font-family: 'Noticia Text', serif;
+  border-bottom: 2px;
+  border-style: solid;
+  border-color: #135E67;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  /*width: 490px; */
+  width:40%;
+  margin-left: 40px;
+}
+
 
 
 
@@ -21,7 +55,7 @@
 
 .minititle1{
   text-align:center;
-  font-size: 40px;
+  font-size: 50px;
   color: #135E67;
   font-family: 'Noticia Text', serif;
 /*  border: 1px #135E67;
@@ -29,23 +63,44 @@
   border-style: dashed;*/
 }
 
-
-.intro{
-  /*width: 75%;
-  float: right;*/
-  text-align: center;
+.firstintro{
+  text-align: left;
+  float: left;
   font-family: 'Noticia Text', serif;
   font-size:20px;
+  color: #254031;
+  text-indent: 25px;
+  width: 40%;
+  margin-left: 40px;
+}
+
+.firstintro1{
+  text-align: left;
+  float: left;
+  font-family: 'Noticia Text', serif;
+  font-size:20px;
+  color: #254031;
+  text-indent: 25px;
+  width: 45%;
+  float: right;
+  margin-top: -40px;
+  margin-right: 50px;
+}
+
+.intro{
+  text-align: center;
+  font-family: 'Noticia Text', serif;
+  font-size:30px;
   color: #254031;
 }
 
 
 .intro1{
   width: 95%;
-  float: center;
+  float: left;
   text-align: center;
   font-family: 'Noticia Text', serif;
-  font-size:20px;
+  font-size:30px;
   color: #254031;
 }
 
@@ -649,3 +704,145 @@ color: #135E67;
   color: #ffffff;
   font-family: 'Noticia Text', serif;
 }
+
+
+/*ANIMAL CSS*/
+.elephantsunset{
+  width: 100%;
+  height: 550px;
+}
+
+.animaltitle{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 100px;
+  font-family: 'Noticia Text', serif;
+}
+
+.animaldef{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Noticia Text', serif;
+}
+
+
+.happening{
+  text-align:center;
+  font-size: 50px;
+  color: black;
+  font-family: 'Noticia Text', serif;
+}
+
+.happeningpara{
+  text-align:left;
+  margin-left: 10px;
+  width:35%;
+  font-size: 25px;
+  color: black;
+  font-family: 'Noticia Text', serif;
+  text-indent: 25px;
+}
+
+.happeningpara1{
+  text-align:left;
+  width:35%;
+  font-size: 25px;
+  color: black;
+  font-family: 'Noticia Text', serif;
+  float: left;
+}
+
+.happeningpara2{
+  text-align:left;
+  width:35%;
+  font-size: 20px;
+  color: black;
+  font-family: 'Noticia Text', serif;
+  float: left;
+}
+
+.extinctvideo{
+  float: right;
+  margin-right: 10px;
+  margin-top: -40%;
+}
+
+.link{
+  color: orange;
+}
+
+.elk{
+  float: right;
+  margin-top: 70px;
+  margin-right: 20px;
+  width: 650px;
+  height: 480px;
+}
+
+.midwaystats{
+  width:30.3%;
+  margin-left: 25px;
+}
+
+.circlebuttonspages button {
+  background-color: black; /* Green background */
+  border: 1px solid "white"; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  font-size: 17px;
+  font-family: 'Noticia Text', serif;
+}
+
+
+.circlebuttonspages button:not(:last-child) {
+  border-right: none; /* Prevent double borders it was none*/
+}
+
+/* Clear floats (clearfix hack) */
+.circlebuttonspages:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.circlebuttonspages button:hover {
+  background-color: darkorange;
+}
+
+.bigborder{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    height: 680px;
+  }
+
+  .bigborder1{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    height: 620px;
+  }
+
+  .protest{
+    margin-top: 120px;
+  }
+
+  .logo{
+    height:15%;
+    float:left;
+    border-style: solid;
+    border-color: #135E67;
+    border-width: 1px;
+    position: absolute;
+  }

@@ -1,0 +1,213 @@
+.bigpic1{
+  width: 100%;
+  height: 550px;
+}
+
+.climatew{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 100px;
+  font-family: 'Noticia Text', serif;
+}
+
+.climatewp{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Noticia Text', serif;
+}
+
+.sum34{
+  font-family: 'Noticia Text', serif;
+  color: 	#0C2247;
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 60px;
+  margin-top: 20px;
+
+}
+
+.bor781{
+  border-style: solid;
+  border-width: 1px;
+  color: black;
+  margin-bottom: 20px;
+
+}
+
+.sum344{
+  font-family: 'Noticia Text', serif;
+  color: 	#0C2247;
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 15px;
+  margin-top: 100px;
+
+}
+
+
+/*.clipp{
+  /*border-style: solid;
+    border-width: 5px;
+    border-color: #135e67;
+    padding-left: 150px;
+    width: 90%;
+    border: 5px solid #135e67;
+  /*  background-color: #b8ced1;*/
+}
+
+
+.sol{
+  width: 30%;
+  float: left;
+  margin-left: 100px;
+}
+.glapp{
+  float: right;
+margin-right: 30px;
+margin-left: 30px;
+  /*height: 200px;
+  margin-right: 100px;*/
+
+}
+
+.title44{
+  text-align: left;
+  margin-left: 100px;
+  font-size: 42px;
+
+}
+
+.words44{
+ text-align: center;
+margin-left: 60px;
+font-size: 30px;
+margin-top: -30px;s
+
+}
+
+.background44{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.botimg{
+  width: 100%;
+  height: 500px;
+}
+
+.words76{
+  font-family: 'Noticia Text', serif;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cli1{
+height:170px;
+width: 170px;
+margin-right: 20px;
+border: 5px solid white;
+position: absolute;
+  top: 65%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+}
+
+.cli2{
+  height:170px;
+  width: 170px;
+margin-right: 20px;
+border: 5px solid white;
+position: absolute;
+  top: 65%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.cli3{
+  height:170px;
+  width: 170px;
+  margin-right: 20px;
+  border: 5px solid white;
+  position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cli4{
+  height:170px;
+  width: 170px;
+  margin-right: 20px;
+  border: 5px solid white;
+  position: absolute;
+    top: 65%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.cli5{
+  height:170px;
+  width: 170px;
+  margin-right: 20px;
+  border: 5px solid white;
+  position: absolute;
+    top: 65%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+
+
+.circlebuttonspages button {
+  background-color: black; /* Green background */
+  border: 1px solid "white"; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  font-size: 17px;
+  font-family: 'Noticia Text', serif;
+}
+
+
+.bigborder{
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  height: 680px;
+}
+
+.bigborder1{
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  height: 620px;
+}
+
+.circlebuttonspages button:not(:last-child) {
+  border-right: none; /* Prevent double borders it was none*/
+}
+
+/* Clear floats (clearfix hack) */
+.circlebuttonspages:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.circlebuttonspages button:hover {
+  background-color: darkblue;
