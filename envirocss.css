@@ -337,7 +337,6 @@ div.polaroid3 {
 /*  z-index: 1;/*
 
 
-
 }
 
 .btn-group button:not(:last-child) {
@@ -457,7 +456,15 @@ body, html {
   border-radius: 50%;
   margin-left: 180px;
   margin-right: 80px;
+  opacity: 1;
 }
+
+.forests:hover {
+  opacity: .7;
+  cursor: pointer;
+}
+
+
 
 .animals{
   background-image: url("tigercub2.jpg");
@@ -470,8 +477,13 @@ body, html {
   height: 40%;
   margin-right: 80px;
   border-radius: 50%;
+  opacity: 1;
 }
 
+.animals:hover {
+  opacity: .7;
+  cursor: pointer;
+}
 
 
 .climate{
@@ -484,9 +496,17 @@ body, html {
   width: 20%;
   height: 40%;
   border-radius: 50%;
+  opacity: 1;
 }
 
+.climate:hover {
+  opacity: .7;
+  cursor: pointer;
+}
 
+.parklinks{
+  color:#135E67;
+}
 
 
 
@@ -642,6 +662,8 @@ body, html {
   text-align: center;
   font-family: 'Noticia Text', serif;
   color: #135E67;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .vis{
@@ -655,6 +677,8 @@ color: #135E67;
   text-align: center;
   font-family: 'Noticia Text', serif;
   color: #135E67;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .cv{
@@ -670,7 +694,7 @@ color: #135E67;
 .own{
   background-color:#89aeb3;
   width: 30%;
-  height: 440px;
+  height: 480px;
   float: left;
   display: inline;
 }
@@ -685,7 +709,7 @@ color: #135E67;
 .sus{
   background-color: #598e94;
   width: 30%;
-  height: 440px;
+  height: 480px;
   float: left;
   margin-left: 65px;
   display: inline;
@@ -701,7 +725,7 @@ color: #135E67;
 .opt{
   background-color: #135E67;
   width: 30%;
-  height: 440px;
+  height: 480px;
   float: right;
   display: inline;
 }
@@ -724,6 +748,8 @@ color: #135E67;
   text-align: center;
   color: #ffffff;
   font-family: 'Noticia Text', serif;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .cort{
@@ -731,6 +757,8 @@ color: #135E67;
   text-align: center;
   color: #ffffff;
   font-family: 'Noticia Text', serif;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 
@@ -929,4 +957,34 @@ color: #135E67;
   transform: rotateY(180deg);
   font-style: 'Noticia Text', serif;
   font-size: 65px;
+}
+
+
+
+.bottombuttons button {
+  background-color: black; /* Green background */
+  border: 1px solid "white"; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  font-size: 30px;
+  font-family: 'Noticia Text', serif;
+/*  z-index: 1;/*
+
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders it was none*/
+}
+/* Clear floats (clearfix hack)*/
+.bottombuttons:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/* Add a background color on hover */
+.bottombuttons button:hover {
+  background-color: darkorange;
 }

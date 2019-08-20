@@ -122,6 +122,49 @@
   float: left;
 }
 
+.forestyyy{
+  text-align:left;
+  font-weight: lighter;
+  margin-left: 10px;
+  width:35%;
+  height: 50%;
+  font-size: 20px;
+  color: black;
+  font-family: 'Noticia Text', serif;
+  float: left;
+}
+
+
+.bottombuttons button {
+  background-color: black; /* Green background */
+  border: 1px solid "white"; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  font-size: 30px;
+  font-family: 'Noticia Text', serif;
+/*  z-index: 1;/*
+
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders it was none*/
+}
+/* Clear floats (clearfix hack)*/
+.bottombuttons:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/* Add a background color on hover */
+.bottombuttons button:hover {
+  background-color: darkgreen;
+}
+
+
+
 
 .restnot{
   float:right;
@@ -138,6 +181,11 @@
   float: left; /* Float the buttons side by side */
   font-size: 17px;
   font-family: 'Noticia Text', serif;
+}
+
+.whitewords{
+  color:white;
+  font-size: 5px;
 }
 
 

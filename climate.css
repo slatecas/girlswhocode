@@ -39,6 +39,7 @@
   border-width: 1px;
   color: black;
   margin-bottom: 20px;
+  margin-top: 25px;
 
 }
 
@@ -86,10 +87,10 @@ margin-left: 30px;
 }
 
 .words44{
- text-align: center;
+ text-align: left;
 margin-left: 60px;
 font-size: 30px;
-margin-top: -30px;s
+margin-top: -30px;
 
 }
 
@@ -196,6 +197,39 @@ position: absolute;
   border-color: black;
   height: 620px;
 }
+
+
+
+
+  .bottombuttons button {
+    background-color: black; /* Green background */
+    border: 1px solid "white"; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+    font-size: 30px;
+    font-family: 'Noticia Text', serif;
+  /*  z-index: 1;/*
+
+
+  .btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders it was none*/
+  }
+  /* Clear floats (clearfix hack)*/
+  .bottombuttons:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+  /* Add a background color on hover */
+  .bottombuttons button:hover {
+    background-color: darkblue;
+  }
+
+
 
 .circlebuttonspages button:not(:last-child) {
   border-right: none; /* Prevent double borders it was none*/

@@ -107,10 +107,10 @@ function check () {
     else if (question14 == "I used to"){
       score++;
     }
-    if (question15 == "I use rechargable batteries"){
+    if (question15 == "Never"){
       score+=2;
     }
-    else if (question15 == "I put them in my freezer"){
+    else if (question15 == "Rarely"){
       score++;
     }
     if (question16 == "Always"){
@@ -148,9 +148,9 @@ var fScore = (score/30) * 100;
 var finalScore = fScore.toFixed(0);
 
 var results = [
-  "Awesome! You've proven yourself to be an environmentally-conscious person, so keep up the good work! Meanwhile, check out our page 'How You Can Help' to read about other ways you could continue benefitting the environment.",
-  "Overall, you're doing a good job in preserving our environment, but there's always room for improvement. To read about other ways you can be more eco-friendly check out our page 'How You Can Help'",
-  "Sadly, your habits are not doing any favors to the state of our planet, so it's best to check out our page 'How You Can Help' to learn about eco-friendly living before it's too late."
+  "Awesome! You have proven yourself to be an environmentally-conscious person, so keep up the good work! Meanwhile, check out our page 'How You Can Help' to read about other ways you can continue benefitting the environment.",
+  "Overall, you are doing a good job in preserving our environment, but there is always room for improvement. To read about other ways you can be more eco-friendly check out our page 'How You Can Help'",
+  "Sadly, your habits are not doing any favors to the state of our planet, so it is best to check out our page 'How You Can Help' to learn about eco-friendly living before it is too late."
   ];
 
 var range;
