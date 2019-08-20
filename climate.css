@@ -125,6 +125,32 @@ position: absolute;
   top: 65%;
   left: 10%;
   transform: translate(-50%, -50%);
+  opacity: 1;
+}
+
+.cli1:hover{
+  opacity: .7;
+  cursor: pointer;
+}
+
+.cli2:hover{
+  opacity: .7;
+  cursor: pointer;
+}
+
+.cli3:hover{
+  opacity: .7;
+  cursor: pointer;
+}
+
+.cli4:hover{
+  opacity: .7;
+  cursor: pointer;
+}
+
+.cli5:hover{
+  opacity: .7;
+  cursor: pointer;
 }
 
 .cli2{
@@ -136,6 +162,7 @@ position: absolute;
   top: 65%;
   left: 30%;
   transform: translate(-50%, -50%);
+  opacity: 1;
 }
 
 .cli3{
@@ -147,6 +174,7 @@ position: absolute;
     top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
+    opacity: 1;
 }
 
 .cli4{
@@ -158,6 +186,7 @@ position: absolute;
     top: 65%;
     left: 70%;
     transform: translate(-50%, -50%);
+    opacity: 1;
 }
 
 .cli5{
@@ -169,6 +198,7 @@ position: absolute;
     top: 65%;
     left: 90%;
     transform: translate(-50%, -50%);
+    opacity: 1;
 }
 
 
