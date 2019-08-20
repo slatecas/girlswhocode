@@ -249,6 +249,11 @@ div.polaroid {
   margin-bottom: 25px;
   float: right;
   margin-left: 30px;
+  opacity: 1;
+}
+
+div.polaroid:hover{
+  background-color: #D3D3D3;
 }
 
 div.container {
