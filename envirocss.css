@@ -765,12 +765,12 @@ color: #135E67;
 /*ANIMAL CSS*/
 .elephantsunset{
   width: 100%;
-  height: 550px;
+  height: 534px;
 }
 
 .animaltitle{
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #ffffff;
@@ -780,7 +780,7 @@ color: #135E67;
 
 .animaldef{
   position: absolute;
-  top: 45%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #ffffff;
